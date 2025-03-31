@@ -11,9 +11,9 @@ const simpsonFont = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "SimpsonToken - The Official Cryptocurrency of Springfield",
+  title: "SIMPSONSCOIN - The Official Cryptocurrency of Springfield",
   description:
-    "Join the yellow revolution with SimpsonToken, Springfield's first and only Simpson-themed cryptocurrency on the blockchain.",
+    "Join the yellow revolution with SIMPSONSCOIN, Springfield's first and only Simpson-themed cryptocurrency on the blockchain.",
   generator: 'v0.dev',
   icons: {
     icon: 'https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png',
@@ -23,22 +23,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: 'https://simpsontoken.xyz',
-    title: 'SimpsonToken - The Official Cryptocurrency of Springfield',
-    description: 'Join the yellow revolution with SimpsonToken, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain.',
-    siteName: 'SimpsonToken',
+    title: 'SIMPSONSCOIN - The Official Cryptocurrency of Springfield',
+    description: 'Join the yellow revolution with SIMPSONSCOIN, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain.',
+    siteName: 'SIMPSONSCOIN',
     images: [
       {
         url: 'https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png',
         width: 1200,
         height: 630,
-        alt: 'SimpsonToken Logo',
+        alt: 'SIMPSONSCOIN Logo',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SimpsonToken - The Official Cryptocurrency of Springfield',
-    description: 'Join the yellow revolution with SimpsonToken, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain.',
+    title: 'SIMPSONSCOIN - The Official Cryptocurrency of Springfield',
+    description: 'Join the yellow revolution with SIMPSONSCOIN, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain.',
     images: ['https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png'],
   },
 }
@@ -58,13 +58,13 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://simpsontoken.xyz" />
-        <meta property="og:title" content="SimpsonToken - The Official Cryptocurrency of Springfield" />
-        <meta property="og:description" content="Join the yellow revolution with SimpsonToken, Springfield's first and only Simpson-themed cryptocurrency on the blockchain." />
+        <meta property="og:title" content="SIMPSONSCOIN - The Official Cryptocurrency of Springfield" />
+        <meta property="og:description" content="Join the yellow revolution with SIMPSONSCOIN, Springfield's first and only Simpson-themed cryptocurrency on the blockchain." />
         <meta property="og:image" content="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" />
-        <meta property="og:site_name" content="SimpsonToken" />
+        <meta property="og:site_name" content="SIMPSONSCOIN" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="SimpsonToken - The Official Cryptocurrency of Springfield" />
-        <meta name="twitter:description" content="Join the yellow revolution with SimpsonToken, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain." />
+        <meta name="twitter:title" content="SIMPSONSCOIN - The Official Cryptocurrency of Springfield" />
+        <meta name="twitter:description" content="Join the yellow revolution with SIMPSONSCOIN, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain." />
         <meta name="twitter:image" content="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" />
         <Script 
           id="counter-dev"

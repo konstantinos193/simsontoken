@@ -18,14 +18,14 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center">
             <div className="mb-4 text-center">
               <h1 className="text-5xl font-bold text-[#ffd521] drop-shadow-lg md:text-7xl" style={{ fontFamily: "'SimpsonFont', Arial, sans-serif !important" }}>
-                SimpsonToken
+                SIMPSONSCOIN
               </h1>
               <p className="mt-2 text-xl font-medium text-white drop-shadow-md" style={{ fontFamily: "'SimpsonFont', Arial, sans-serif" }}>D'OH! It's a token!</p>
             </div>
             <div className="mt-4">
               <Image
                 src="/images/bart-coin.png"
-                alt="Simpson Token"
+                alt="SIMPSONSCOIN"
                 width={200}
                 height={200}
                 className="rounded-full border-4 border-[#ffd521] shadow-lg"
@@ -50,7 +50,7 @@ export default function Home() {
           {/* About Section with Carousel */}
           <div className="mb-12 rounded-xl bg-[#ffd521]/80 p-6 backdrop-blur-sm">
             <h2 className="text-3xl font-bold text-[#0f52ba] drop-shadow-md text-center mb-8">
-              Welcome to Springfield's First Community Token!
+              Welcome to Springfield's First Memecoin!
             </h2>
             <div className="mb-8">
               <ImageCarousel />
@@ -204,11 +204,11 @@ export default function Home() {
               <div className="mb-6 md:mb-0 md:w-1/2">
                 <h2 className="mb-2 text-3xl font-bold text-[#0f52ba]">Join The Community!</h2>
                 <p className="text-xl text-[#0f52ba]">
-                  Get your SimpsonTokens now and be part of Springfield's future!
+                  Get your SIMPSONSCOIN now and be part of Springfield's future!
                 </p>
               </div>
               <div className="flex flex-col space-y-4">
-                <Button className="bg-[#0f52ba] text-white hover:bg-[#0a3d8a]">Buy SimpsonToken</Button>
+                <Button className="bg-[#0f52ba] text-white hover:bg-[#0a3d8a]">Buy SIMPSONSCOIN</Button>
                 <a href="https://x.com/simpsonsco1491" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="border-[#0f52ba] text-[#0f52ba] hover:bg-[#0f52ba33] w-full">
                     Join X
@@ -224,8 +224,8 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <div className="flex flex-col items-center justify-between md:flex-row">
               <div className="mb-4 md:mb-0">
-                <h3 className="text-2xl font-bold text-[#ffd521]">SimpsonToken</h3>
-                <p className="text-white">© 2025 SimpsonToken</p>
+                <h3 className="text-2xl font-bold text-[#ffd521]">SIMPSONSCOIN</h3>
+                <p className="text-white">© 2025 SIMPSONSCOIN</p>
               </div>
               <div className="flex space-x-6">
                 <p className="text-white">To The Moon!</p>
