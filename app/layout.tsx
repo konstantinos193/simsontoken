@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    url: 'https://simpsontoken.xyz',
+    url: 'https://odinsimpson.fun',
     title: 'SIMPSONSCOIN - The Official Cryptocurrency of Springfield',
     description: 'Join the yellow revolution with SIMPSONSCOIN, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain.',
     siteName: 'SIMPSONSCOIN',
@@ -57,7 +57,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://simpsontoken.xyz" />
+        <meta property="og:url" content="https://odinsimpson.fun" />
         <meta property="og:title" content="SIMPSONSCOIN - The Official Cryptocurrency of Springfield" />
         <meta property="og:description" content="Join the yellow revolution with SIMPSONSCOIN, Springfield's first and only Simpson-themed cryptocurrency on the blockchain." />
         <meta property="og:image" content="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" />
