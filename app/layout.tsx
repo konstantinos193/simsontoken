@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import "@/styles/globals.css"
 import localFont from 'next/font/local'
 import Head from 'next/head'
+import Script from 'next/script'
 
 const simpsonFont = localFont({
   src: '../public/fonts/simpsonfont.otf',
@@ -67,7 +68,10 @@ export default function RootLayout({
         <meta name="twitter:image" content="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" />
       </Head>
       <html lang="en" className={`${simpsonFont.variable}`}>
-        <body className={`${simpsonFont.className}`}>{children}</body>
+        <body className={`${simpsonFont.className}`}>
+          {children}
+          <Script src="https://cdn.counter.dev/script.js" data-id="89b19111-d9eb-4cca-9a30-be09e1f54f3c" data-utcoffset="3" />
+        </body>
       </html>
     </>
   )
