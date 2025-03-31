@@ -24,11 +24,11 @@ export default function Home() {
             </div>
             <div className="mt-4">
               <Image
-                src="/images/bart-coin.png"
+                src="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png"
                 alt="SIMPSONSCOIN"
-                width={200}
-                height={200}
-                className="rounded-full border-4 border-[#ffd521] shadow-lg"
+                width={300}
+                height={300}
+                className="scale-125 transform hover:scale-130 transition-transform duration-200"
                 priority
               />
             </div>
