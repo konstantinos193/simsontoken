@@ -49,8 +49,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <>
-      <Head>
+    <html lang="en" className={`${simpsonFont.variable}`}>
+      <head>
         <link rel="icon" href="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" type="image/png" />
         <link rel="shortcut icon" href="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" type="image/png" />
         <link rel="apple-touch-icon" href="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" />
@@ -66,14 +66,21 @@ export default function RootLayout({
         <meta name="twitter:title" content="SimpsonToken - The Official Cryptocurrency of Springfield" />
         <meta name="twitter:description" content="Join the yellow revolution with SimpsonToken, Springfield\'s first and only Simpson-themed cryptocurrency on the blockchain." />
         <meta name="twitter:image" content="https://i.postimg.cc/t4zkHTJS/bart-coin-removebg-preview.png" />
-      </Head>
-      <html lang="en" className={`${simpsonFont.variable}`}>
-        <body className={`${simpsonFont.className}`}>
-          {children}
-          <Script src="https://cdn.counter.dev/script.js" data-id="89b19111-d9eb-4cca-9a30-be09e1f54f3c" data-utcoffset="3" />
-        </body>
-      </html>
-    </>
+        <Script 
+          id="counter-dev"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,id:"4c26003d-8807-499d-a273-a4f6275d4adc",utcoffset:"3"}))};
+              sessionStorage.setItem("_swa","1");
+            `
+          }}
+        />
+      </head>
+      <body className={`${simpsonFont.className}`}>
+        {children}
+      </body>
+    </html>
   )
 }
 
