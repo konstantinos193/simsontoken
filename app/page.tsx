@@ -33,7 +33,9 @@ export default function Home() {
               />
             </div>
             <div className="mt-6 flex gap-4">
-              <Button className="bg-[#ffd521] text-[#0f52ba] hover:bg-[#ffcc00]">Buy Now!</Button>
+              <a href="https://odin.fun/token/2d3e" target="_blank" rel="noopener noreferrer">
+                <Button className="bg-[#ffd521] text-[#0f52ba] hover:bg-[#ffcc00]">Buy Now!</Button>
+              </a>
               <Button
                 variant="outline"
                 disabled
@@ -208,7 +210,9 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col space-y-4">
-                <Button className="bg-[#0f52ba] text-white hover:bg-[#0a3d8a]">Buy SIMPSONSCOIN</Button>
+                <a href="https://odin.fun/token/2d3e" target="_blank" rel="noopener noreferrer">
+                  <Button className="bg-[#0f52ba] text-white hover:bg-[#0a3d8a] w-full">Buy SIMPSONSCOIN</Button>
+                </a>
                 <a href="https://x.com/simpsonsco1491" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" className="border-[#0f52ba] text-[#0f52ba] hover:bg-[#0f52ba33] w-full">
                     Join X
