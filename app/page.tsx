@@ -33,7 +33,7 @@ export default function Home() {
               />
             </div>
             <div className="mt-6 flex gap-4">
-              <a href="https://odin.fun/token/2d3e" target="_blank" rel="noopener noreferrer">
+              <a href="https://odin.fun/token/2dc3" target="_blank" rel="noopener noreferrer">
                 <Button className="bg-[#ffd521] text-[#0f52ba] hover:bg-[#ffcc00]">Buy Now!</Button>
               </a>
               <Button
@@ -210,7 +210,7 @@ export default function Home() {
                 </p>
               </div>
               <div className="flex flex-col space-y-4">
-                <a href="https://odin.fun/token/2d3e" target="_blank" rel="noopener noreferrer">
+                <a href="https://odin.fun/token/2dc3" target="_blank" rel="noopener noreferrer">
                   <Button className="bg-[#0f52ba] text-white hover:bg-[#0a3d8a] w-full">Buy SIMPSONSCOIN</Button>
                 </a>
                 <a href="https://x.com/simpsonsco1491" target="_blank" rel="noopener noreferrer">
